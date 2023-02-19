@@ -31,3 +31,6 @@ link.](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyz
 [This project was created following the official Rust "Getting Started"
 documentation, which can be found
 here.](https://www.rust-lang.org/learn/get-started)
+
+[Documentation for Cargo - the Rust package manager can be found
+here](https://doc.rust-lang.org/cargo/index.html).
