@@ -11,6 +11,21 @@ link](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-ini
 After installation finished, I checked if Rust was up-to-date using the shell
 command `rustup update`.
 
+## VSCode Setup
+
+Rust officially supports a single VSCode extension - Rust-analyzer, which features:
+
+- code completion with imports insertion
+- go to definition, implementation, type definition
+- find all references, workspace symbol search, symbol renaming
+- types and documentation on hover
+- inlay hints for types and parameter names
+- semantic syntax highlighting
+- and more
+
+[The Rust-analyzer VSCode extension can be found using this
+link.](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
 ## Sources
 
 [This project was created following the official Rust "Getting Started"
