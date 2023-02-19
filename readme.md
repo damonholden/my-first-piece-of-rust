@@ -35,7 +35,15 @@ cargo new hello-rust
 ```
 
 This command creates a new rust hello-world project in a directory called
-`hello-world`. Moving into the new directory, the Rust program can be run by
+`hello-world`. The program code should look something like this:
+
+```lang-rust
+fn main() {
+  println!("Hello, world!");
+}
+```
+
+Moving into the new directory, the Rust program can be run by
 executing the following command:
 
 ```lang-bash
