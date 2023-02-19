@@ -60,6 +60,19 @@ $ cargo run
 Hello, world!
 ```
 
+## Adding Dependencies
+
+Dependencies are included to a project by appending to the dependencies list in
+the `Cargo.toml` file.
+
+For example the ferris-says dependency was added by appending the following to
+the `Cargo.toml` file:
+
+```lang-toml
+[dependencies]
+ferris-says = "0.2"
+```
+
 ## Sources
 
 [This project was created following the official Rust "Getting Started"
