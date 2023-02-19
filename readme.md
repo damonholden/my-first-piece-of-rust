@@ -26,6 +26,32 @@ Rust officially supports a single VSCode extension - Rust-analyzer, which featur
 [The Rust-analyzer VSCode extension can be found using this
 link.](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
+## hello-rust Project setup
+
+The 'hello-rust' project was setup by running the following shell command:
+
+```lang-bash
+cargo new hello-rust
+```
+
+This command creates a new rust hello-world project in a directory called
+`hello-world`. Moving into the new directory, the Rust program can be run by
+executing the following command:
+
+```lang-bash
+cargo run
+```
+
+The output will be something similar to the following:
+
+```lang-bash
+$ cargo run
+   Compiling hello-rust v0.1.0 (/Users/ag_dubs/rust/hello-rust)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.34s
+     Running `target/debug/hello-rust`
+Hello, world!
+```
+
 ## Sources
 
 [This project was created following the official Rust "Getting Started"
